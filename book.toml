@@ -1,0 +1,12 @@
+[book]
+authors = ["Sérgio Araújo"]
+language = "pt-br"
+src = "src"
+title = "Literatura na Escola"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/sergio/literatura-na-escola"
+edit-url-template = "https://github.com/sergio/literatura-na-escola/edit/main/{path}"
