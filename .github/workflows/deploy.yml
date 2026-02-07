@@ -29,7 +29,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Build Book
-        run: bin/mdbook build
+        run: |
+          bin/mdbook build
+          touch book/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
