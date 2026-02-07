@@ -8,5 +8,5 @@ title = "Literatura na Escola"
 build-dir = "book"
 
 [output.html]
-git-repository-url = "https://github.com/sergio/literatura-na-escola"
-edit-url-template = "https://github.com/sergio/literatura-na-escola/edit/main/{path}"
+git-repository-url = "https://github.com/zonaeducacional/literatura-na-escola"
+edit-url-template = "https://github.com/zonaeducacional/literatura-na-escola/edit/main/{path}"
